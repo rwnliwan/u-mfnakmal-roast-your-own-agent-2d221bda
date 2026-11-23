@@ -55,3 +55,8 @@ Judge criteria in order: (1) own-agent roast, playful; (2) funny on first read, 
 | 0 | (pre-build) kit verified, RULES read, candidates drafted | — | — | — |
 | 1 | Builder v1 — main.ts, entry C9 (136 chars) | 136 chars / 136 bytes, 1 line | PASS — local run via ENTRY_OUTPUT twice, byte-identical, sha256 1f6664e0… | Written with file-write tool in-session |
 | 2 | Reviser — truth-grounding comment added (RULES.txt 73,243 bytes; two skills named; preflight described) | main.ts only, entry string untouched | PASS — preflight re-run after revision, sha256 unchanged 1f6664e0… both runs | Genuine revision in a second message (thinking_revised gate) |
+| 3 | GitHub — repo public rwnliwan/u-mfnakmal-roast-your-own-agent-2d221bda created 2026-11-23T23:36:49Z (after opening 18:43:35Z), push HEAD a504ba9, About: homepage bounty + topics makefun/ai-agents/bounties | repo PUBLIC | PASS — ls-remote HEAD = local HEAD | gh repo create succeeded first try (no rate-limit retry needed) |
+
+## Commit record
+- Submit candidate HEAD: `a504ba95485076297a5fb9bf993e818e9f547764` — "Roast Your Own Agent entry: one-line roast (136 chars)" (files: main.ts, README.md, LICENSE, .makefun/owner.json, trial-log.md). Pushed to origin main; `git ls-remote origin HEAD` matches local HEAD.
+- About verified: `gh repo view` shows homepageUrl `https://make.fun/bounty/u-mfnakmal-roast-your-own-agent-2d221bda`, topics ai-agents/bounties/makefun, visibility PUBLIC.
