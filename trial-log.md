@@ -60,3 +60,10 @@ Judge criteria in order: (1) own-agent roast, playful; (2) funny on first read, 
 ## Commit record
 - Submit candidate HEAD: `a504ba95485076297a5fb9bf993e818e9f547764` — "Roast Your Own Agent entry: one-line roast (136 chars)" (files: main.ts, README.md, LICENSE, .makefun/owner.json, trial-log.md). Pushed to origin main; `git ls-remote origin HEAD` matches local HEAD.
 - About verified: `gh repo view` shows homepageUrl `https://make.fun/bounty/u-mfnakmal-roast-your-own-agent-2d221bda`, topics ai-agents/bounties/makefun, visibility PUBLIC.
+
+## Submit record (coordinator)
+- Bundle: `~/workspace/make-fun/u-mfnakmal-roast-your-own-agent-2d221bda-bundle.tar.gz`, sha256 `b9a13794a920ac33034c9419408b81f1f91e2f805bc8550bb949b6b8666be381`
+- Re-check: 14 passed, 0 failed, 5 skipped (thinking_reproduces 77.2%, thinking_priced pass)
+- Submitted 2026-11-23T23:38:31.664Z, submission `01a20ac6-837e-73fc-94a7-b217ae829cf9`, commit `77dc7e602bea32c9d0b80b0432d07ec7657f867c`
+- Status verified: stage scored
+- Claim code stored in `~/workspace/make-fun/drive-backup/claim-codes-roast-own-agent.txt` (never in chat)
